@@ -62,7 +62,7 @@ After downloading the installer(`Anaconda3-2020.07-Linux-x86_64`), please make s
     
  * If after reopening the terminal you are not getting the conda list, follow the instructions
     * Open `.bashrc` file using `vi ~/.bashrc`
-    * Add the line `export PATH="/home/username/anaconda3/bin:$PATH"` in the file
+    * Update and add the line `export PATH="/home/username/anaconda3/bin:$PATH"` in the file with correct path (from the installation prompt). Useful links for error resolution. [CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'](https://bobbyhadz.com/blog/commandnotfounderror-your-shell-has-not-been-properly-configured-to-use-conda-activate),[Conda Command not Found](https://linuxhint.com/conda-command-not-found/) 
     * Then execute the command `source ~/.bashrc`
 
 ## How to create conda environment and run your code
